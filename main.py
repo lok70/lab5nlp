@@ -33,10 +33,10 @@ class ModelResponse:
 
 
 #Настройки
-API_TOKEN = '8227304338:AAEPDD1qVkHplfns_whzWjRetFpAKmsaypI'
+API_TOKEN = ''
 bot = telebot.TeleBot(API_TOKEN)
 
-LM_STUDIO_URL = 'http://localhost:1234/v1/chat/completions'
+LM_STUDIO_URL = ''
 
 #Хранилище контекста
 user_histories = {}
